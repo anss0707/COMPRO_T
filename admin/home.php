@@ -47,8 +47,8 @@
         if(file_exists('content/'.$_GET['page'].".php")) {
           include 'content/'.$_GET['page'].".php";
         } else {
-          include 'content.notfound.php';
-        }
+        // include 'content.notfound.php';
+      }
       } else {
         include 'content/dashboard.php';
       }
